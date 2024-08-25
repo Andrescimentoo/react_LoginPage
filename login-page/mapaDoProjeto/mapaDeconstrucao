@@ -1,0 +1,33 @@
+1- Primeiro passo apos a instalçao:
+
+* Estruturar estilizaçao removendo alguns codigos vindos automaticamente{
+    excluir tudo do arquivo:"index.css"
+    excluir tudo do arquivo: "App.css"
+    exluir quase tudo de app.jsx deixando somente:
+    (importacao do app.css)
+    (a funcao App)
+    (o return que contera nossas tags divs e etc )
+    (a exportacao do App)
+}
+
+2-  Segundo passo apos a instalçao:
+
+*Criar o esqueleto da nossa pagina{
+   nesse caso fica a criterio do projeto oq criar 
+}
+
+3- Terceiro Passo:
+
+*criar a nossa pasta component para armazenar nossos arquivos{
+    /components
+    /Nome do componente a operar
+    /arquivo.jsx (para conter nossa operacao sobre o componente)
+    /arquivo.css (para estilizar a nossa operacao sobre o componente) 
+    }
+
+4- Quarto Passo:
+
+*criar a nossa operaçao no arquivo (arquivo.jsx) obs: no caso aqui,um formulario {
+    Dentro do Return voce adiciona sua estrutura,sendo um formulario
+    o padrao é aquele la: cria a div,coloca a class,as tags e os elementos
+}   
