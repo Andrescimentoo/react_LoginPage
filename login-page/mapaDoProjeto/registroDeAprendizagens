@@ -17,3 +17,14 @@
    
 }
 
+3- Terceiro Ponto:
+
+* App.jsx {
+    aprendi que dentro dela é que colocamos nossas alteraçoes que fazemos
+    dentro dos components pensa que é como se fosse um tipo de Use, quando
+    criavamos uma rota usando express e na app principal é que colocavamos
+    o Use(rota), para avisar a aplicaçao principal que existe tal rota e que
+    agora ela faz parte da apliocaçao principal
+    }
+
+4-     
