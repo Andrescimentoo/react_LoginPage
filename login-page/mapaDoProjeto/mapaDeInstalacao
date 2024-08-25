@@ -1,0 +1,23 @@
+1- Primeiro Passo:
+
+* instalar o vite{
+   "npm create vite"
+}
+
+2- Segundo Passo:
+
+*criar a pasta para armazenar as instalaçoes{
+   "cd 'nomeDaPasta'  
+}
+
+3- Terceiro Passo: 
+
+* Instalar as dependencias{
+   "npm i"
+}
+
+4- Quarto Passo: 
+
+*Rodar o servidor{
+    "npm run dev"
+}
