@@ -5,12 +5,14 @@ function App() {
   
 
   return (
+   <div class="app">
+      <h1>Pagina de Login</h1>
     <div>
-       <h1>Bem vindo a nossa Pagina de Login</h1>
+      <input type="email" placeholder='inserir gmail' />
     </div>
+   </div>
+
   )
-    
-  
-}
+ }
 
 export default App
