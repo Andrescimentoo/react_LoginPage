@@ -1,16 +1,16 @@
 import { useState } from 'react'
 
 
-const app = ()=> {
+function App() {
   
 
   return (
     <div>
-      <h1>Faça seu Login</h1>
+       <h1>Bem vindo a nossa Pagina de Login</h1>
     </div>
   )
     
   
 }
 
-export default app
+export default App
