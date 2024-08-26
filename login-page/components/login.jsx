@@ -18,8 +18,16 @@ import { FaUser,FaLock } from "react-icons/fa"
                   <input type= 'checkbox'/>
                   lembre de mim
                </label>
-              
-            </div>
+               
+               <a href="#">Esqueceu a senha? </a>
+                                  
+           </div>
+           <div className="signup-link">
+            <p>
+              Nao tem conta?<a href="#">Registrar</a>
+           </p>
+           </div>
+            
             <button>Entrar</button>
       </form>
     </div>
