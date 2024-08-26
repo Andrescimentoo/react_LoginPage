@@ -29,5 +29,13 @@
 
 *criar a nossa operaçao no arquivo (arquivo.jsx) obs: no caso aqui,um formulario {
     Dentro do Return voce adiciona sua estrutura,sendo um formulario
-    o padrao é aquele la: cria a div,coloca a class,as tags e os elementos
+    o padrao é aquele la: cria a div,coloca a class,as tags e os elementos.
 }   
+5- Quinto Passo: 
+
+*Manipular os estados de cada um dos campos estruturados{
+    apos construir toda a nossa base do projeto,agora vamos 
+    manipular os estados de cada elemento,sendo uma pagina
+    de login poderiamos por exemplo fazer um sitema de vali-
+    dacao que poderia armazenar usuarios ao nosso sistema.
+}
