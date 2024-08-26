@@ -27,4 +27,11 @@
     agora ela faz parte da apliocaçao principal
     }
 
-4-     
+4- Quarto Passo: 
+
+*App.css {
+    aprendi que como o css ja que aprendi,é nele que faremos as estilizaçoes
+    nos elementos,no entanto podemos dividir as estilizaçoes em partes e arquivos
+    assim estilizando tanto a parte principal do projeto,quanto só o componente a manipular
+    nesse caso o (login.css) 
+} 
