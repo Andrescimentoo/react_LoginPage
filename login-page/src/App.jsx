@@ -1,13 +1,12 @@
-import { useState } from 'react'
+import Login from '../components/login.jsx'
+import './App.css'
 
 
 function App() {
   
 
   return (
-    <div>
-      <p>Pagina De Login</p>
-    </div>
+    <Login/>
   )
  }
 
