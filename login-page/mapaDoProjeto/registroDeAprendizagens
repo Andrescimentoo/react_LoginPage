@@ -44,9 +44,13 @@
     de validaçao com react, muitos passos foram necessarios vou pontuar todos :
     
     (1){ useState } from "react": resposnavel por operar dentro dos nossos inputs como um manipulador de dados
+    
     (2) const lerDado / const alterarDado: apos importar usamos o Use state para realizar essas 2 operaçoes dentro dos inputs
+    
     (3) funcao ValidarForm: ela vai ser resposavel pelo envio de dados mas primeiro de tudo precisamos travar o recarregamento
     da pagina para assim podermos monitorar os dados que passam pelos inputs,assim para realizar essa funçao passamos como parametro
     para a nossa funçao o callBack "event" que logo em seguida recebe um methodo "preventDefault()responsavel por executar
-    o nao recarregamento da pagina apos o usuario adicionar seus dados dentro dos inputs construidos" 
+    o nao recarregamento da pagina apos o usuario adicionar seus dados dentro dos inputs construidos"
+    
+    OBS: A funcao ValidarForm tem que estar conectada a tag form da nossa estrutura HTML pra funcionar!
 } 
