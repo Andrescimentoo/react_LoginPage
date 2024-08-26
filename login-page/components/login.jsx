@@ -13,6 +13,13 @@ import { FaUser,FaLock } from "react-icons/fa"
                 <input type="password" placeholder='insira sua senha'/>
                 <FaLock class="icon"/>
             </div>
+            <div className="recal-forget">
+               <label>
+                  <input type= 'checkbox'/>
+                  lembre de mim
+               </label>
+              
+            </div>
             <button>Entrar</button>
       </form>
     </div>
