@@ -27,37 +27,43 @@ import "./login.css"
  
 
   return (
-    <div class="container">
+    <div class="App">
       <form onSubmit={enviarForm}>
-            <h1>Acesse o sistema</h1>
-            <div class = "email">
+        <div className="container">
+            <h1>Login</h1>
+            
+            <div class = "input-field">
                 <input type="email" placeholder='insira seu gmail'
                   onChange={(e)=> setUsername(e.target.value)} //nessa linha peguei o evento de digitar
                 />
                 <FaUser class="icons"/>
             </div>
-            <div class="pass">
+            <div class="input-field">
                 <input type="password" placeholder='insira sua senha'
                   onChange={(e)=> setPassword(e.target.value)}
                 />
-                <FaLock class="icon"/>
+                <FaLock class="icons"/>
             </div>
             <div className="recal-forget">
-               <label>
-                  <input type= 'checkbox'/>
-                  lembre de mim
+               <label> 
+                  <input type= 'checkbox'/> 
+                   lembre de mim  
                </label>
                
-               <a href="#">Esqueceu a senha?</a>
+               <a href="#"> Esqueceu a senha?</a>
                                   
            </div>
+          
+           <button>Entrar</button>
+          
            <div className="signup-link">
             <p>
-              Nao tem conta?<a href="#">Registrar</a>
+              Nao tem conta? <a href="#">Registrar</a>
            </p>
            </div>
             
-            <button>Entrar</button>
+            
+        </div> 
       </form>
     </div>
   )
