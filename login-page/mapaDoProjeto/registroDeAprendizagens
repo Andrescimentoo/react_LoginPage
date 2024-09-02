@@ -57,7 +57,7 @@
     (4) funcao ValidarForm: Apos travar a pagina para ela nao carregar,trabalhei com o envio dos dados , essa parte tambem nao
     tem muito segredo,pra validar a gente ultiliza aquelas 2 const de ler e alterar dado (passwor,Setpasssword)
     e entao dentro dos inputs chamamos o menthodo on-change e colocamos um calback (e) que eventuara a validaçao
-    apos isso vamos ativar a validaçao ao input capturando o input selecionado,o valor dentro dele e assim colocando o evento
+    apos isso vamos chamar nosso (SetValor) e ativar a validaçao ao input capturando o input selecionado,o valor dentro dele e assim colocando o evento
     nele! é de fato emocionante e emplogante poder aprender cada vez mais e conseguir entender como funcionam as logicas
     de cada framwork,biblioteca,funçao e etc  
 } 
