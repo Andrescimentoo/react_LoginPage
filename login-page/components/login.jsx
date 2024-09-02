@@ -18,22 +18,28 @@ import "./login.css"
   
   const[username,setUsername] = useState ("") //username le,setUsername altera
   const[password,setPassword] = useState("")// password le, setUsername altera
+ 
   const enviarForm = (event) => { //se enviarmos sem o parametro "event" ao clicar em enviar a pagina sempre vai recarregar
-    event.preventDefault()
-    console.log("formulario enviado com sucesso!")
+     event.preventDefault()
+      
+     alert("enviando Dados : " + username + " - " + password)
   } 
-
+ 
 
   return (
     <div class="container">
       <form onSubmit={enviarForm}>
             <h1>Acesse o sistema</h1>
             <div class = "email">
-                <input type="email" placeholder='insira seu gmail' />
+                <input type="email" placeholder='insira seu gmail'
+                  onChange={(e)=> setUsername(e.target.value)} //nessa linha peguei o evento de digitar
+                />
                 <FaUser class="icons"/>
             </div>
             <div class="pass">
-                <input type="password" placeholder='insira sua senha'/>
+                <input type="password" placeholder='insira sua senha'
+                  onChange={(e)=> setPassword(e.target.value)}
+                />
                 <FaLock class="icon"/>
             </div>
             <div className="recal-forget">
@@ -42,7 +48,7 @@ import "./login.css"
                   lembre de mim
                </label>
                
-               <a href="#">Esqueceu a senha? </a>
+               <a href="#">Esqueceu a senha?</a>
                                   
            </div>
            <div className="signup-link">
